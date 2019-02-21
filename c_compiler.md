@@ -59,7 +59,16 @@ Here is a list of more advanced features like you might like to implement once t
 * strings (as NULL-terminated character arrays)
 * declaration and use of structs
 
-Your compiler will be assessed using test inputs that exercise the above features. No feature not listed above will be tested. All test inputs will be valid; that is, you can assume the absence of programmer errors like syntax faults, type mismatches, and array out-of-bounds errors. The entire compilation and testing process (including compilation, assembly, linking, and MIPS simulation) is expected to complete within ten seconds per program (which should be plenty of time!), and is expected not to use an inordinate amount of memory or disk space. There is no requirement for the generated assembly to be optimised in any way -- the only requirement is that it produces the correct answer.
+Your compiler will be assessed using test inputs that exercise the above features. No feature not listed above will be tested. 
+Here is a (partial) list of features that will not be tested.
+
+* multithreading
+* the `goto` keyword
+* macros and other preprocessing directives
+* the comma operator (for sequencing within expressions)
+* the [old K&R style of declaring functions](https://stackoverflow.com/a/18820829)
+
+All test inputs will be valid; that is, you can assume the absence of programmer errors like syntax faults, type mismatches, and array out-of-bounds errors. The entire compilation and testing process (including compilation, assembly, linking, and MIPS simulation) is expected to complete within ten seconds per program (which should be plenty of time!), and is expected not to use an inordinate amount of memory or disk space. There is no requirement for the generated assembly to be optimised in any way -- the only requirement is that it produces the correct answer.
 
 
 Output Format
