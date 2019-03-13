@@ -47,7 +47,7 @@ The requirements for the deliverable are to create ten tests:
 
 4. `IF_ELSE_F`: Test that an if else condition correctly executes the false branch.
 
-5. `FOR_N`: Check that a for loop can execute more than once. _Note that due to this not being updated, this was ambiguous for a long time. This test will be special-cased, and checked manually to see whether it is testing for `for` or `while` loops, and assessed appropriately.
+5. `FOR_N`: Check that a for-loop can execute more than one iteration.
 
 6. `LOCAL_ARRAY`: Check that an array can be allocated locally and used within a function.
 
