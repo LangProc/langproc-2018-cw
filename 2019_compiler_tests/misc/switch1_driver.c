@@ -1,8 +1,8 @@
 
-int g();
+int g(int x);
 
 int main()
 {
     int x;
-    return !( (g(0)+g(1))==21);
+    return !( (g(1)+g(2))==21);
 }
